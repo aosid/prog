@@ -1,0 +1,55 @@
+<class>
+<keyword> class </keyword>
+<identifier> Main </identifier>
+<symbol> { </symbol>
+<subroutineDec>
+<keyword> function </keyword>
+<keyword> void </keyword>
+<identifier> main </identifier>
+<symbol> ( </symbol>
+<parameterList>
+</parameterList>
+<symbol> ) </symbol>
+<subroutineBody>
+<symbol> { </symbol>
+<varDec>
+<keyword> var </keyword>
+<identifier> Array </identifier>
+<identifier> a </identifier>
+<symbol> ; </symbol>
+</varDec>
+<varDec>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> length </identifier>
+<symbol> ; </symbol>
+</varDec>
+<varDec>
+<keyword> var </keyword>
+<keyword> int </keyword>
+<identifier> i </identifier>
+<symbol> , </symbol>
+<identifier> sum </identifier>
+<symbol> ; </symbol>
+</varDec>
+<statements>
+<letStatement>
+<keyword> let </keyword>
+<identifier> length </identifier>
+<symbol> = </symbol>
+<expression>
+<term>
+<identifier> Keyboard </identifier>
+<identifier> . </identifier>
+<symbol> readInt </symbol>
+<identifier> ( </identifier>
+</term>
+</expression>
+<symbol> "HOW MANY NUMBERS? " </symbol>
+</letStatement>
+</statements>
+<symbol> ) </symbol>
+</subroutineBody>
+</subroutineDec>
+<symbol> ; </symbol>
+</class>

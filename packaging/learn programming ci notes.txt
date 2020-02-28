@@ -1,0 +1,10 @@
+travis-ci.com
+
+package[other_module]:
+setup.py contains 
+install_require=
+tests_require=
+extras_require={other_module=blah.txt}
+
+so you can install different supersets of your package for various tasks
+

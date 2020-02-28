@@ -1,0 +1,9 @@
+setuptools
+wheel
+twine
+
+twine upload --repository-url https://test.pypi.org/legacy dist/*
+
+1. go to __about__.py and change __title__ to a package name
+2. rename the package and repository directories to your new package name
+3. fix package name in setup.py where we read in __about__
